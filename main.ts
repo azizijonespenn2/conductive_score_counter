@@ -3,7 +3,6 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(score)
 })
 let score = 0
-hummingbird.startHummingbird()
 score = 0
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P0) == 1) {
